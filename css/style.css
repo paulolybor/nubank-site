@@ -1,0 +1,168 @@
+@font-face {
+  font-family: Graphick;
+  src: url("/fonts/GraphikRegular.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --roxo1: #8a05be;
+  --roxo2: #530082;
+  --preto: #111111;
+  --branco: #ffffff;
+  --cinza: #f5f5f5;
+}
+
+body {
+  font-family: Graphick !important;
+  background-color: var(--cinza);
+}
+
+header .headerContainer {
+  width: 100%;
+  height: 56px;
+  background-color: var(--branco);
+  color: var(--preto);
+  font-size: 0.975rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 3rem;
+  position: fixed;
+  z-index: 99;
+}
+
+header .headerContainer .logo {
+  color: var(--preto);
+}
+
+header .headerContainer .menu ul,
+header .headerContainer .menu li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 1rem;
+}
+
+header .headerContainer a {
+  color: var(--preto);
+  text-decoration: none;
+  -webkit-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+}
+
+header .headerContainer a:hover {
+  text-decoration: underline;
+}
+
+header .headerContainer .login {
+  margin-left: auto;
+}
+
+header .headerContainer .login a {
+  color: var(--roxo1);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+main .mainContainer {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--roxo1);
+  color: var(--branco);
+  padding: 0 2rem 0 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .mainContainer .tituloPrincipal {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .mainContainer .tituloPrincipal h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+main .mainContainer .tituloPrincipal a {
+  color: var(--branco);
+  margin-top: 1rem;
+}
+
+main .mainContainer .imgPrincipal {
+  height: 100%;
+}
+
+main .mainContainer .imgPrincipal img {
+  max-width: 100%;
+}
+
+main .mainContainer .formPrincipal {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .mainContainer .formPrincipal form {
+  background-color: var(--branco);
+  max-width: 80%;
+  border-radius: 0.875rem;
+  color: var(--preto);
+  padding: 1.5rem;
+}
+
+main .mainContainer .formPrincipal form h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+main .mainContainer .formPrincipal form input {
+  margin: 3rem 0 2rem 0;
+  width: 100%;
+  height: 3rem;
+  border: none;
+}
+
+main .mainContainer .formPrincipal form button {
+  width: 100%;
+  height: 3rem;
+  border: none;
+  border-radius: 2rem;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+  color: var(--preto);
+}
+
+main .mainContainer .formPrincipal form button:hover {
+  background-color: var(--roxo1);
+  color: var(--branco);
+}
+/*# sourceMappingURL=style.css.map */
