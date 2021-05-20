@@ -22,6 +22,18 @@ body {
   background-color: var(--cinza);
 }
 
+.container-fluid {
+  padding: 0 3rem !important;
+}
+
+.container {
+  max-width: 1280px !important;
+}
+
+img {
+  max-width: 100%;
+}
+
 header {
   .headerContainer {
     width: 100%;
@@ -76,7 +88,6 @@ main {
     width: 100%;
     background-color: var(--roxo1);
     color: var(--branco);
-    padding: 0 2rem 0 2rem;
     display: flex;
     align-items: center;
 
@@ -145,5 +156,182 @@ main {
         }
       }
     }
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+section,
+footer {
+  padding: 4rem 0;
+}
+
+section h2 {
+  font-size: 2.6rem;
+}
+
+.saibaMais {
+  margin: 2rem 0;
+}
+
+#nuconta {
+  width: 100%;
+  height: auto;
+  background-color: var(--cinza);
+
+  img {
+    max-height: 600px;
+    float: right;
+  }
+
+  a {
+    color: var(--roxo1);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+#credito {
+  width: 100%;
+  height: 650px;
+  background-color: var(--branco);
+  overflow: hidden;
+
+  img {
+    max-height: 800px;
+    float: right;
+  }
+
+  a {
+    color: var(--roxo1);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+#rewards {
+  width: 100%;
+  height: auto;
+  background-color: var(--branco);
+  overflow: hidden;
+
+  img {
+    max-height: 450px;
+    float: right;
+  }
+
+  a {
+    color: var(--roxo1);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+#sobre {
+  width: 100%;
+  height: calc(100vh - 56px);
+  background-image: url(../assets/images/sobre.webp);
+  background-position: center;
+  background-size: cover;
+  color: var(--branco);
+
+  a {
+    color: var(--branco);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+#nucommunity {
+  width: 100%;
+  height: calc(100vh - 56px);
+  background-image: url(../assets/images/nucommunity.webp);
+  background-position: center;
+  background-size: cover;
+  color: var(--branco);
+
+  a {
+    color: var(--branco);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+#blog {
+  width: 100%;
+  height: calc(100vh - 56px);
+  background-image: url(../assets/images/blog.webp);
+  background-position: center;
+  background-size: cover;
+  color: var(--branco);
+
+  a {
+    color: var(--branco);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+footer {
+  background-color: var(--preto);
+
+  h3 {
+    color: var(--cinza);
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+  }
+
+  ul,
+  li {
+    list-style: none;
+    line-height: 1.8rem;
+  }
+
+  a {
+    color: var(--branco);
+    font-size: 1rem;
+  }
+
+  .links1 {
+    margin-bottom: 1rem;
+  }
+
+  .copyright {
+    padding: 3rem 0;
+  }
+
+  address,
+  span {
+    color: var(--branco);
+  }
+
+  #separador {
+    background-color: rgba($color: #f5f5f5, $alpha: 0.05);
+  }
+
+  i {
+    font-size: 1.5rem;
+    color: var(--branco);
+    margin-right: 1rem;
   }
 }

@@ -26,4 +26,39 @@
     max-width: 100% !important;
     margin-bottom: 3rem;
   }
+
+  .saibaMais {
+    max-width: 250px;
+    margin: 2rem auto;
+  }
+
+  section {
+    text-align: center;
+  }
+
+  img {
+    max-width: 80%;
+    float: center !important;
+    text-align: center;
+  }
+
+  #credito {
+    height: 800px;
+  }
+
+  section h2 {
+    font-size: 2rem;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer svg {
+    margin-bottom: 2rem;
+  }
+
+  footer address {
+    margin: 2rem 0;
+  }
 }
