@@ -259,7 +259,7 @@ section h2 {
 #sobre {
   width: 100%;
   height: calc(100vh - 56px);
-  background-image: url(../assets/images/sobre.webp);
+  background-image: url(../assets/images/sobre.jpg);
   background-position: center;
   background-size: cover;
   color: var(--branco);
@@ -277,7 +277,7 @@ section h2 {
 #nucommunity {
   width: 100%;
   height: calc(100vh - 56px);
-  background-image: url(../assets/images/nucommunity.webp);
+  background-image: url(../assets/images/nucommunity.jpg);
   background-position: center;
   background-size: cover;
   color: var(--branco);
@@ -295,7 +295,7 @@ section h2 {
 #blog {
   width: 100%;
   height: calc(100vh - 56px);
-  background-image: url(../assets/images/blog.webp);
+  background-image: url(../assets/images/blog.jpg);
   background-position: center;
   background-size: cover;
   color: var(--branco);
