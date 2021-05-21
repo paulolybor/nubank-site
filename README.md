@@ -8,4 +8,4 @@ Clone em HTML e CSS da página inicial do @Nubank
 - Estou clonando a página inicial do @nubank para estudos em HTML, CSS e Javascript;
 - Valeu!
 
-<img src=".github/print.png" alt="Clone Nubank" title="Clone Nubank" />
+<a href="https://nubank-site.netlify.app/" target="_blank"><img src=".github/print.png" alt="Clone Nubank" title="Clone Nubank" /></a>
